@@ -3,6 +3,8 @@
 ## 📌 Project Overview
 This repository contains the RTL design of a 32-bit RISC-V processor core (RV32I Instruction Set Architecture) written completely from scratch in Verilog. The microarchitecture features an optimized 5-stage pipeline designed for cycle efficiency and high throughput, implementing advanced hazard resolution techniques modeled after standard computer architecture literature (e.g., *Computer Organization and Design: RISC-V Edition*).
 
+![Referenced RiskV Architecture](risk_v_32i.png)
+
 ## 🛠️ Microarchitecture & Pipeline Details
 * Instruction Set: RV32I (Base Integer Instruction Set)
 * Optimized Pipeline Stages: 1. Instruction Fetch (IF): Program Counter logic and Instruction Memory interface.
